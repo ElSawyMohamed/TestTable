@@ -26,5 +26,8 @@ class SecondViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func bckBtn(_ sender: UIButton) {
+        
+        dismiss(animated: true , completion: nil)
+    }
 }

@@ -10,6 +10,10 @@ import UIKit
 
 class testTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var nameBranch: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
